@@ -1,0 +1,309 @@
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+p, ul, ol, dl, dd {
+    margin: 0 0 1em 0;
+}
+
+p, li {
+    font-size: 13px;
+    font-size: 0.8125rem;
+    line-height: 15px;
+    line-height: 0.9375rem;
+    font-weight: 400;
+    font-style: normal;
+    font-family: georgia,"times new roman",times,serif;
+}
+
+a:link, a:visited {
+    color: #000;
+}
+
+a:visited {
+    color: #326891;
+}
+a:link {
+    text-decoration: none;
+    color: #326891;
+}
+
+.quick-navigation {
+    left: 15px;
+    float: left;
+    z-index: 2;
+}
+.masthead-meta,
+.masthead-cap {
+    display: block;
+    width: 970px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.masthead-cap {
+    min-height: 40px;
+    padding-top: 10px;
+}
+
+.quick-navigation .sections-button {
+    margin-left: -9px;
+}
+
+.quick-navigation .sections-button,
+.quick-navigation .search-button {
+    color: #333;
+    background-color: transparent;
+    border: none;
+    font-weight: 700;
+    height: 30px;
+    border: 1px solid transparent;
+}
+
+.quick-navigation .button {
+    float: left;
+}
+
+.has-svg .sprite-icon {
+    background-image: url(/assets/homepage/20170120-161948/images/sprite/sprite-no-repeat.svg);
+}
+
+.quick-navigation .sections-button .icon {
+    background-repeat: no-repeat;
+    background-position: -443px -214px;
+    width: 16px;
+    height: 16px;
+}
+
+.icon {
+    display: inline-block;
+    line-height: 0;
+    vertical-align: middle;
+    font-style: normal;
+}
+
+.quick-navigation .sections-button:hover,
+.quick-navigation .sections-button:active,
+.quick-navigation .sections-button.active,
+.quick-navigation .search-button:hover,
+.quick-navigation .search-button:active,
+.quick-navigation .search-button.active {
+    background-color: #f7f7f5;
+}
+
+.user-tools {
+    float: right;
+}
+
+.user-tools .user-tools-button-group {
+    float: left;
+    margin-top: 1px;
+}
+
+.button .button-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.button .icon+.button-text {
+    margin-left: 7px;
+}
+
+.button {
+    font-size: 11px;
+    font-size: 0.6875rem;
+    line-height: 13px;
+    line-height: 0.8125rem;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "nyt-franklin",arial,helvetica,sans-serif;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+    display: inline-block;
+    margin: 0;
+    padding: 7px 9px;
+    border: 1px solid #e2e2e2;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.user-tools .login-button,
+.user-tools .subscribe-button {
+    background-color: #6288a5;
+    border-color: #4d7b9f;
+    color: #fff;
+    font-weight: 700;
+    height: 30px;
+}
+
+.button-group .button:first-child {
+    margin-left: 0;
+}
+
+.button-group .button {
+    margin-left: 3px;
+}
+
+.notifications-button {
+    position: relative;
+    padding: 5px 6px;
+    border: 1px solid transparent;
+    overflow: visible;
+}
+
+.notifications-button .button-text {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.notifications-button .icon {
+    background-repeat: no-repeat;
+    background-position: -136px 0;
+    width: 16px;
+    height: 16px;
+}
+
+.user-tools .user-settings-button {
+    color: #333;
+    background-color: transparent;
+    border: none;
+    font-weight: 700;
+    vertical-align: top;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border: 1px solid transparent;
+}
+
+.masthead .user-tools .user-settings-button .icon {
+    background-repeat: no-repeat;
+    background-position: -494px -214px;
+    width: 16px;
+    height: 16px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.masthead-meta{
+    min-height: 90px;
+    padding: 8px 0;
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 2px solid #000;
+}
+
+.editions.tab {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border: 1px solid #e2e2e2;
+    border-bottom: none;
+    height: 11px;
+    padding: 4px 9px 0;
+    background-color: #fff;
+}
+
+.editions {
+    position: absolute;
+    top: -16px;
+    left: 50%;
+    margin-left: -103px;
+}
+
+.editions .editions-menu {
+    font-size: 10px;
+    font-size: 0.625rem;
+    line-height: 15px;
+    line-height: 0.9375rem;
+    font-weight: 400;
+    font-style: normal;
+    font-family: arial,helvetica,sans-serif;
+    margin-bottom: 0;
+}
+
+.editions .editions-menu li.active {
+    font-weight: 700;
+}
+.editions .editions-menu li:first-child {
+    margin-left: 0;
+}
+.editions .editions-menu li {
+    font-size: 10px;
+    font-size: 0.625rem;
+    line-height: 10px;
+    line-height: 0.625rem;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "nyt-franklin",arial,helvetica,sans-serif;
+    display: inline-block;
+    margin-left: 9px;
+    text-transform: uppercase;
+}
+
+.editions .editions-menu li a {
+    color: #6f6f6f;
+}
+
+.branding {
+    text-align: center;
+}
+
+.masthead-menu {
+    width: 570px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.masthead-menu li {
+    font-size: 11px;
+    font-size: 0.6875rem;
+    line-height: 11px;
+    line-height: 0.6875rem;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "nyt-franklin",arial,helvetica,sans-serif;
+    display: inline-block;
+    height: 10px;
+    padding: 0 10px;
+    border-left: 1px solid #e2e2e2;
+    color: #333;
+}
+
+.masthead-menu li:first-child {
+    padding-left: 0;
+    border-left: none;
+}
+
+.masthead-menu li.todays-paper .icon {
+    background-repeat: no-repeat;
+    background-position: -182px -280px;
+    width: 12px;
+    height: 12px;
+    margin-right: 6px;
+    vertical-align: bottom;
+}
+
+.masthead-menu li.video .icon {
+    background-repeat: no-repeat;
+    background-position: -112px -313px;
+    width: 12px;
+    height: 8px;
+    margin-right: 4px;
+    vertical-align: 50%;
+}

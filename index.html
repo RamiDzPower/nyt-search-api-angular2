@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Angular QuickStart</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Polyfill(s) for older browsers -->
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+
+    <script src="systemjs.config.js"></script>
+    <script>
+      System.import('app').catch(function(err){ console.error(err); });
+    </script>
+  </head>
+
+  <body>
+  <base href="/">
+
+  <div class="masthead-cap-container">
+        <div id="masthead-cap" class="masthead-cap">
+            <div class="quick-navigation button-group">
+                <button class="button sections-button enable-a11y">
+                    <i class="icon sprite-icon"></i><span class="button-text">Sections</span>
+                </button>
+                <button class="button search-button">
+                    <i class="icon sprite-icon"></i><span class="button-text">Search</span>
+                </button>
+                <a class="button skip-button skip-to-content visually-hidden focusable" href="#top-news">Skip to content</a>
+                <a class="button skip-button skip-to-navigation visually-hidden focusable" href="#site-index-navigation">Skip to navigation</a>
+            </div><!-- close quick-navigation -->
+
+            <div class="user-tools">
+                <div class="user-tools-button-group button-group">
+                    <button class="button subscribe-button" >Subscribe Now</button>
+                    <button class="button login-button login-modal-trigger">Log In</button>
+                    <button class="button notifications-button hidden"><i class="icon sprite-icon"></i><span class="button-text">0</span></button>
+                    <button class="button user-settings-button">
+                        <i class="icon sprite-icon"></i><span class="button-text">Settings</span>
+                    </button>
+                </div>
+            </div><!-- close user-tools -->
+        </div><!-- close masthead-cap -->
+
+    </div>
+
+    <div class="masthead-meta">
+        <div class="editions tab">
+
+            <ul class="editions-menu">
+                <li class="edition-domestic-toggle active">English</li>
+                <li class="edition-chinese-toggle"><a href="#">中文 (Chinese)</a></li>
+                <li class="edition-spanish-toggle"><a href="#">Español</a></li>
+            </ul>
+
+        </div><!-- close editions -->
+
+        <h2 class="branding">
+          <a href="http://www.nytimes.com/">
+            <svg class="nyt-logo" width="379" height="64" role="img" aria-label="The New York Times">
+                <image width="379" height="64" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://a1.nyt.com/assets/homepage/20170120-161948/images/foundation/logos/nyt-logo-379x64.svg" src="https://a1.nyt.com/assets/homepage/20170120-161948/images/foundation/logos/nyt-logo-379x64.png" alt="The New York Times" border="0"></image>
+            </svg>
+          </a>
+        </h2>
+
+        <ul class="masthead-menu">
+            <li class="date">Sunday, January 22, 2017</li>
+            <li class="todays-paper">
+              <a href="http://www.nytimes.com/pages/todayspaper/index.html" data-collection="todays-paper">
+                <i class="icon sprite-icon"></i>Today’s Paper</a>
+            </li>
+            <li class="video"><a href="http://www.nytimes.com/video" data-collection="video">
+              <i class="icon sprite-icon"></i>Video</a></li><li id="weather" class="weather" data-collection="weather"><button class="button weather-button"><i class="icon sprite-icon weather-icon icon-weather-03 w24"></i>88°F</button></li><li id="markets" class="markets" data-collection="markets" style="display: inline-block;"><button data-collection="markets" class="button markets-button is-positive">Nasdaq <span>+0.28%</span><i class="icon sprite-icon ticker-icon"></i></button>
+            </li>
+        </ul>
+    </div>
+
+    <my-app>Loading AppComponent content here ...</my-app>
+  </body>
+</html>
